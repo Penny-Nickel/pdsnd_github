@@ -112,7 +112,7 @@ def common_data(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
  
- 
+    
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
  
@@ -191,7 +191,8 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
  
-##Raw data view     
+##Raw data view - this is the interactive portion of the project asking 
+##to view raw data lines 5 at a time     
 def raw_data(df):
     view_data=('yes','no')
     row=0
@@ -204,7 +205,7 @@ def raw_data(df):
             print('Do you want to see 5 lines of raw data?')
             next
         elif view_data =='no':
-            print('Thank you, have a great day.')
+            print('Thank you, have an AWESOME day!')
             break
         else:
             print('Please enter either yes or no,')
